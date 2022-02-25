@@ -2,6 +2,8 @@
 
 This is the capstone project for _The Odin Project - Foundations - CSS Foundations._ It demonstrates a basic array of CSS concepts, such as the CSS box model and flexbox. It does not incorporate concepts of responsive design as this is introduced later in the course.
 
+[View Landing Page - Live Demo](https://cyberstream.github.io/top-landing-page/)
+
 # Image Credits
 
 Sunset Silhouette Photo by [S Migaj](https://www.pexels.com/@simonmigaj?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) from [Pexels](https://www.pexels.com/photo/silhouette-photography-of-person-standing-on-green-grass-in-front-of-mountains-during-golden-hour-746386/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
