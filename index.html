@@ -8,9 +8,9 @@
 
     <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body>
-    <header>
-        <div class="left">Bear Paw Expeditions</div>
+<body class="flex-column">
+    <header class="dark-bg flex-row">
+        <div class="left logo">Bear Paw Expeditions</div>
         <nav class="right">
             <a href="#">Services</a>
             <a href="#">About Us</a>
@@ -18,69 +18,60 @@
         </nav>
     </header>
 
-    <div class="section welcome">
+    <div class="section welcome dark-bg flex-row">
         <div class="left">
             <h1>Let the Adventure Begin!</h1>
-            <p>Ready to experience the wilderness in all its wild glory? We'll take you on an unforgettable adventure to places where few humans have ever stepped foot.</p>
+            <p>Ready to experience the wilderness in all its wild glory? We're ready to take you on an unforgettable adventure into places where few humans have ever stepped foot.</p>
             <button>Reserve a Spot</button>
         </div>
         <div class="right">
-            <img src="" alt="Placeholder for image">
+            <img class="banner" src="./img/wilderness.jpg" alt="Man standing on rock near mountains at sunset">
         </div>
     </div>
 
-    <div class="section tiles">
-        <h2>Our Experiences</h2>
+    <div class="section experiences flex-column">
+        <h2>The Experience</h2>
 
-        <div class="tile">
-            <img src="./img/" alt="">
-            <p>Ride the Rapids</p>
-        </div>
-        <div class="tile">
-            <img src="./img/" alt="">
-            <p>Hike a Peak</p>
-        </div>
-        <div class="tile">
-            <img src="./img/" alt="">
-            <p>Walk on a Glacier</p>
-        </div>
-        <div class="tile">
-            <img src="./img/" alt="">
-            <p>Camp among Moose</p>
-        </div>
-    </div>
-
-    <div class="section quote">
-        <p>Spectacular! The week I spent in the wilderness with Bear Paw Expeditions was absolutely spectacular. I have never felt more alive.</p>
-
-        <div>- Karl Thrillchaser</div>
-    </div>
-
-    <div class="section sign-up">
-        <div class="banner">
-            <div class="left">
-                <h3>What are you waiting for? Let's Go!</h3>
-
-                <p>Our adventures fill up fast, so book soon.</p>
+        <div class="tiles flex-row">
+            <div class="tile">
+                <img src="./img/kayak.jpg" alt="Kayaker in whitewater rapids">
+                <p>Ride the Rapids</p>
             </div>
-            
-            <button>Reserve a Spot</button>
+            <div class="tile">
+                <img src="./img/peak.jpg" alt="Man on mountain peak">
+                <p>Hike a Peak</p>
+            </div>
+            <div class="tile">
+                <img src="./img/glacier.jpg" alt="Heavily crevassed glacier">
+                <p>Walk on a Glacier</p>
+            </div>
+            <div class="tile">
+                <img src="./img/cabin.jpg" alt="Log cabin during autumn colors">
+                <p>Camp with Moose</p>
+            </div>
         </div>
     </div>
 
-    <footer>
+    <div class="section quote gray-bg">
+        <p class="customer-quote">Amazing! The week I spent in the wilderness with Bear Paw Expeditions was absolutely spectacular. I have never felt more alive.</p>
+
+        <div class="customer-name">- Theodore Thrillchaser</div>
+    </div>
+
+    <div class="section sign-up flex-row">
+        <div class="left">
+            <h3>What are you waiting for? Let's Go!</h3>
+
+            <p>Our adventures fill up fast, so book soon.</p>
+        </div>
+        
+        <button>Reserve a Spot</button>
+    </div>
+
+    <footer class="dark-bg">
         <p>Copyright &copy; The Odin Project 2022</p>
 
-        <h6>Image Credits</h6>
-
-        <p>Kayaking Photo by <a href="https://unsplash.com/@haithama?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Haitham</a> on <a href="https://unsplash.com/s/photos/kayak-rapids?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
-        
-        <p>Mountain Peak Photo by <a href="https://unsplash.com/@joshuaearle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joshua Earle</a> on <a href="https://unsplash.com/s/photos/mountain-peak?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
-
-        <p>Glacier Photo by <a href="https://unsplash.com/@noaa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">NOAA</a> on <a href="https://unsplash.com/s/photos/glacier?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-        </p>
-
-        <p></p>
+        <p>Refer to <a href="./README.md">README file</a> for image credits.</p>
     </footer>
 </body>
 </html>
