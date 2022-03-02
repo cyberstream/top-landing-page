@@ -158,6 +158,12 @@ a {
 
 footer {
     text-align: center;
-    font-size: 10px;
+    font-size: 12px;
     padding: 20px;
+}
+
+footer a {
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: #aaa;
 }
